@@ -1,0 +1,113 @@
+  
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 1100px;
+}
+header{
+    padding:10px 20px;
+    margin:10px auto;
+    background-color: darkgrey;
+    width:1200px;
+    max-height: 90px;
+    
+}
+
+#logo{
+position: relative;
+width: 200px;
+height: 70px;
+margin-bottom: 10px;
+left: 100px;
+}
+nav ul li 
+{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 70px;
+    margin-bottom: 10px;
+    left: 310px;
+    bottom: 83px;
+    font-size: larger;
+    text-align: center;
+    padding-top: 25px;
+
+    background-color: darkgrey;
+
+
+
+
+
+    
+}
+    
+
+#firstImg{
+    max-width: 960px;
+    /* margin: auto; */
+    margin-left: 275px;
+    margin-bottom: 35px;
+
+
+
+}
+
+.images{
+    display:inline-block;
+    max-width: 310px;
+    margin:20px 12px;
+    position: relative;
+    left: 265px;
+}
+
+article{
+    display: inline-block;
+    max-width: 1000px;
+    margin: 10px;
+    position: relative;
+    left: 265px;
+
+}
+h2{
+    padding: auto;
+    position: relative;
+    left: 525px;
+    bottom: 400px;
+    /* font-weight: ; */
+    font-size: larger;
+}
+p{
+   
+    position: relative;
+    max-width: 450px;
+    max-height: 380px;
+    left: 520px;
+    bottom: 390px;
+}
+button{
+    min-height: 40px;
+    min-width: 150px;
+    position: relative;
+    left: 520px;
+    bottom: 365px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: black;
+}
+button:hover{
+    background-color:rgb(66, 77, 235);
+}
+
+footer{
+    position: relative;
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 200px;
+    bottom: 330px;
+
+    background-color: darkgray;
+}
